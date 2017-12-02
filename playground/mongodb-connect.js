@@ -4,8 +4,8 @@
 // console.log(name);
 
 const {MongoClient, ObjectID} = require('mongodb');
-var obj = new ObjectID();
-console.log(obj);
+// var obj = new ObjectID();
+// console.log(obj);
 
 
 MongoClient.connect('mongodb://localhost:27017/ToDoApp', (err, db) => {

@@ -1,0 +1,36 @@
+//save new something
+
+
+// var newTodo = new Todo({
+//   text:'Cook dinner'
+// });
+//
+// newTodo.save().then( (doc) => {
+//   console.log('Saved todo', doc);
+// }, (e) => {
+//   console.log('Unable to save todo');
+// });
+
+// var newerTodo = new Todo({
+//   text:'This is a newer todo',
+//   completed: true,
+//   completedAt: 20
+// });
+
+// newerTodo.save().then( (doc) => {
+//   console.log('Saved the dodo', doc);
+// }, (err) => {
+//   console.log('Unable to save the newer todo');
+// });
+
+
+
+user = new user({
+  email:'ygwilliams1@comcast.net'
+});
+
+user.save().then( (doc) => {
+  console.log('Saved the user', doc);
+}, (err) => {
+  console.log('Unable to save the new user');
+});
